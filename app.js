@@ -25,4 +25,4 @@ heading.innerHTML = 'WTF Co ten FrontEnd';
 console.log(heading.innerHTML);
 
 const emptyParagraph = document.querySelector('.empty-paragraph');
-emptyParagraph.innerHTML = 'HALO! JEST TU KTOŚ?';
+emptyParagraph.innerHTML = 'HALO! JEST TU KTOŚ? zminiłam zawartość tego elementu';

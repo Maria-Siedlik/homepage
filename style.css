@@ -12,6 +12,7 @@ h3 {
 }
 footer {
    margin: 40px 0px;
+   border-top: 1px solid #fff;
 }
 footer p {
    text-align: center;
@@ -31,7 +32,7 @@ main {
    padding: 15px;
 }
 .empty-paragraph {
-   color: #ff00ff;
+   color: tomato;
 }
 .section__top--header {
    text-align: center;
@@ -42,4 +43,5 @@ main {
 .first__article--header {
    border-bottom: 1px solid #2f4f4f;
    padding-bottom: 15px;
+   text-transform: uppercase;
 }
