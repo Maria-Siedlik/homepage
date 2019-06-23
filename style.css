@@ -3,7 +3,13 @@ body {
    font-family: 'Titillium Web', sans-serif;
    line-height: 1.3em;
    font-weight: 400;
-   background: #f4f4f4;
+   background: rgb(240, 240, 255);
+   background: linear-gradient(
+      90deg,
+      rgba(240, 240, 255, 1) 20%,
+      rgba(220, 219, 185, 1) 82%,
+      rgba(28, 226, 245, 0.15177408854166663) 100%
+   );
 }
 h1,
 h2,
