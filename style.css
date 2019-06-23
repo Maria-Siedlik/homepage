@@ -25,6 +25,9 @@ main {
    max-width: 1000px;
    margin: 0px auto;
 }
+header {
+   margin-top: 100px;
+}
 .header__heading {
    color: #fff;
    background: tomato;
@@ -56,11 +59,36 @@ main {
 .example__table-caption {
    font-size: 10px;
 }
-.example__table {
-}
-.example__table--body {
-}
 .example__table--cell {
    border: 1px solid #2f4f4f;
    padding: 5px;
+}
+.navigation {
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navigation__list--link a {
+   text-decoration: none;
+   color: #024a74;
+   text-transform: uppercase;
+   font-weight: 600;
+   display: inline-block;
+   padding: 15px;
+   margin: 0px 15px;
+   border-bottom: 2px solid transparent;
+   transition: 0.3s;
+}
+.navigation__list--link a:hover {
+   border-bottom: 2px solid #024a74;
+}
+.navigation__list {
+   display: flex;
+   flex-direction: row;
+   list-style: none;
 }
