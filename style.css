@@ -45,3 +45,22 @@ main {
    padding-bottom: 15px;
    text-transform: uppercase;
 }
+.example__table-header {
+   background: #2f4f4f;
+   color: #fff;
+   text-transform: uppercase;
+   padding: 20px;
+   text-align: center;
+   border: 1px solid #fff;
+}
+.example__table-caption {
+   font-size: 10px;
+}
+.example__table {
+}
+.example__table--body {
+}
+.example__table--cell {
+   border: 1px solid #2f4f4f;
+   padding: 5px;
+}
