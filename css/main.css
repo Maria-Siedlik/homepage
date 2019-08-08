@@ -392,31 +392,28 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.navigation__list--link a {
-  text-decoration: none;
-  color: #024a74;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: inline-block;
-  padding: 15px;
-  margin: 0px 15px;
-  border-bottom: 2px solid transparent;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
-
-.navigation__list--link a:hover {
-  border-bottom: 2px solid #024a74; }
-
-.navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style: none; }
+  .navigation__list--link a {
+    text-decoration: none;
+    color: #024a74;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 15px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+  .navigation__list--link a:hover {
+    border-bottom: 2px solid #024a74; }
+  .navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
