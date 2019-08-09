@@ -308,15 +308,12 @@ template {
   display: none; }
 
 body {
-  color: #2f4f4f;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
   line-height: 1.3em;
   font-weight: 400;
   background: #f0f0ff;
-  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #f0f0ff), color-stop(82%, #dcdbb9), to(rgba(28, 226, 245, 0.151774)));
-  background: -webkit-linear-gradient(left, #f0f0ff 20%, #dcdbb9 82%, rgba(28, 226, 245, 0.151774) 100%);
-  background: -o-linear-gradient(left, #f0f0ff 20%, #dcdbb9 82%, rgba(28, 226, 245, 0.151774) 100%);
-  background: linear-gradient(90deg, #f0f0ff 20%, #dcdbb9 82%, rgba(28, 226, 245, 0.151774) 100%); }
+  background: navy; }
 
 h1,
 h2,
@@ -354,7 +351,7 @@ header {
 .section__top--header {
   text-align: center;
   margin: 30px 0px;
-  color: #024a74;
+  color: white;
   text-transform: uppercase; }
 
 .first__article--header {
