@@ -11,4 +11,4 @@
 # homepage
 
 ** tu wstawiamy obrazek **
-![jestem altem obrazka]('src/assets/img/test-markdown.png')
+![jestem altem obrazka]('https://github.com/Maria-Siedlik/homepage/blob/master/src/assets/img/test-markdown.png')
